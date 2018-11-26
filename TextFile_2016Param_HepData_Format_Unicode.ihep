@@ -1,0 +1,381 @@
+*author: KAS
+
+*reference: CMS AN-16-321
+
+
+
+# Give web link to auxiliary information if available.
+
+# The line must also end with a colon followed by the year.
+
+#*reference:??????
+
+
+
+# Give DOI of journal publication if available.
+
+#*doi:???????
+
+
+
+# Give date and person who encoded the record
+
+# (could include collaboration, e-mail address etc.).
+
+# Please give the full name of the encoder and not
+
+# just their initials (with collaboration in brackets).
+
+*status: Encoded 05 OCT 2016 by Kamal Saoucha (in collaboration with the Displaced SUSY Team)
+
+
+
+# Can add other entries if record is later modified.
+
+# The first word "Encoded" or "Modified" will be stored.
+
+*status: Modified XX XXX 2016 by Kamal Saoucha
+
+
+
+# Give "Laboratory-Accelerator-Experiment" and Detector.
+
+*experiment: CERN-LHC-CMS
+
+*detector: CMS
+
+
+
+# SPIRES (http://www.slac.stanford.edu/spires/) record number.
+
+# Will not be allocated for new papers: superseded by INSPIRE.
+
+#*spiresId:
+
+
+
+# INSPIRE (http://inspirehep.net/) record number.
+
+#*inspireId:
+
+
+
+# CERN Document Server (http://cds.cern.ch/) record number.
+
+#*cdsId:
+
+
+
+# Internal Durham record number (will be assigned after submission).
+
+#*durhamId:
+
+
+
+# Title of associated paper.
+
+*title: Parametrisation for the search for new physics models with displaced leptons at the LHC with the CMS experiment in 2015 at sqrt(s) = 13 TeV
+
+
+
+# Comments describing the data as a whole.  Start with "Laboratory-Accelerator".
+
+# Remainder is a plain-text summary of the presented measurements.  This is
+
+# generally close to the paper abstract, but with more focus on the measurement.
+
+# For example, information on data interpretation and comparison to theory can
+
+# be removed (unless this information is to appear in the HepData record).
+
+# Additional information concerning the whole data set can appear here.
+
+# Line breaks are preserved in the HTML display.  A full stop is automatically
+
+# inserted at the end of the comment, so it should be omitted here.
+
+
+
+*comment: CERN-LHC. Models predicting exotic particles with large lifetimes became very attractive the last
+
+decade and they need to be checked. In this note a parametrization is presented that
+
+can be used for yield comparison, a very fast way to get the number of events that can
+
+be observed at CMS, assuming the model, without using algorithms of reconstruction
+
+and simulations. The parameterization is valid for CMS simulation and data collected
+
+in 2015 at a center of mass energy of 13 TeV. This parametrization is model
+
+independent and requires only electrons and/or muons in the final state. Based on the
+
+Displaced Supersymmetry model, the parametrization is tested for a scenario where
+
+a stop decays into a lepton and a bottom. This work is the Bachelor research project
+
+of Kamal Saoucha.
+
+
+
+# Use "*dataset:" to indicate the start of a table.
+
+*dataset:
+
+
+
+# Give location of relevant data in paper (e.g. "Figure 8A", "Table 3" etc.).
+
+*location: Page 13 of Analysis Note
+
+
+
+# Comments on this particular table.  This is generally close to the caption of
+
+# the associated figure/table in the paper, but it should not refer to missing
+
+# information such as theoretical predictions (unless they are also given as
+
+# numbers in the table).  A full stop is automatically inserted at the end of
+
+# the dscomment, so it should be omitted here.
+
+*dscomment: Parametrization of signal acceptance for muons and electrons in numerical format.
+
+
+
+# The main process under study, used by the online search facility.
+
+# The *reackey can be omitted if there is not a specific process.
+
+# Multiple *reackey processes can be given on separate lines.
+
+# Do not attempt to give multiple processes on the same line.
+
+# Omit the decay products or give them on a separate line.
+
+#*reackey: P P --> sTop sTop ??????????????????
+
+
+
+
+
+
+
+*obskey: EFF
+
+*qual: . : Selection on reconstructed level
+
+*xheader: Muon p_{t} IN GeV
+
+*yheader: Eff.
+
+*data: x : y
+
+ 40 TO 100; 0.946 +0.004,-0.004;
+
+ 100 TO 150; 0.94 +0.003,-0.003;
+
+ 150 TO 200; 0.922 +0.005,-0.005;
+
+ 200 TO 250; 0.917 +0.004,-0.004;
+
+ 250 TO 300; 0.93 +0.004,-0.004;
+
+ 300 TO 350; 0.922 +0.004,-0.004;
+
+ 350 TO 400; 0.915 +0.004,-0.004;
+
+ 400 TO 500; 0.912 +0.003,-0.003;
+
+ 500 TO 600; 0.909 +0.003,-0.003;
+
+ 600 TO 800; 0.903 +0.003,-0.003;
+
+
+
+
+
+# Use "*dataend:" to indicate the end of a table (optional, can be omitted,
+
+# provided that "*E" is used at the end of the input file).
+
+*dataend:
+
+
+
+*dataset:
+
+*location: Page 13 of Analysis Note
+
+*dscomment: Parametrization of signal acceptance for muons and electrons in numerical format.
+
+*reackey: P P --> sTop sTop
+
+*obskey: EFF
+
+*qual: . : Selection on reco level
+
+*xheader: Electron p_{t} IN GeV
+
+*yheader: Eff.
+
+*data: x : y
+
+ 40 TO 70; 0.682 +0.031,-0.03;
+
+ 70 TO 100; 0.747 +0.01,-0.01;
+
+ 100 TO 150; 0.745 +0.008,-0.008;
+
+ 150 TO 200; 0.769 +0.009,-0.009;
+
+ 200 TO 250; 0.771 +0.008,-0.007;
+
+ 250 TO 300; 0.764 +0.007,-0.007;
+
+ 300 TO 350; 0.76 +0.007,-0.007;
+
+ 350 TO 400; 0.777 +0.007,-0.007;
+
+ 400 TO 500; 0.773 +0.005,-0.005;
+
+ 500 TO 600; 0.777 +0.005,-0.005;
+
+ 600 TO 800; 0.765 +0.005,-0.005;
+
+
+
+
+
+*dataend:
+
+
+
+*dataset:
+
+*location: Page 13 of Analysis Note
+
+*dscomment: Parametrization of signal acceptance for muons and electrons in numerical format.
+
+*reackey: P P --> sTop sTop
+
+*obskey: EFF
+
+*qual: . : Reconstruction matching efficiency
+
+*xheader: Electron |d0 Beamspot| IN cm
+
+*yheader: Eff.
+
+*data: x : y
+
+ 0 TO 0.05; 0.945 +0.002,-0.002;
+
+ 0.05 TO 0.2; 0.851 +0.003,-0.003;
+
+ 0.2 TO 0.4; 0.772 +0.004,-0.004;
+
+ 0.4 TO 0.6; 0.765 +0.006,-0.006;
+
+ 0.6 TO 0.8; 0.746 +0.008,-0.008;
+
+ 0.8 TO 1.0; 0.719 +0.01,-0.01;
+
+ 1.0 TO 1.2; 0.688 +0.011,-0.011;
+
+ 1.2 TO 1.4; 0.679 +0.013,-0.012;
+
+ 1.4 TO 1.6; 0.572 +0.014,-0.014;
+
+ 1.6 TO 1.8; 0.457 +0.016,-0.016;
+
+ 1.8 TO 2.0; 0.373 +0.017,-0.017;
+
+ 2.0 TO 2.25; 0.363 +0.016,-0.016;
+
+ 2.25 TO 2.5; 0.339 +0.017,-0.018;
+
+ 2.5 TO 3.0; 0.327 +0.013,-0.013;
+
+ 3.0 TO 3.5; 0.291 +0.014,-0.015;
+
+ 3.5 TO 4.0; 0.233 +0.015,-0.016;
+
+ 4.0 TO 4.5; 0.184 +0.021,-0.022;
+
+ 4.5 TO 5.0; 0.087 +0.012,-0.014;
+
+ 5.0 TO 6.0; 0.063 +0.009,-0.01;
+
+ 6.0 TO 10.0; 0.051 +0.006,-0.007;
+
+
+
+*dataend:
+
+
+
+*dataset:
+
+*location: Page 13 of Analysis Note
+
+*dscomment: Parametrization of signal acceptance for muons and electrons in numerical format.
+
+*reackey: P P --> sTop sTop
+
+
+
+*obskey: EFF
+
+*qual: . : Reconstruction matching efficiency
+
+*xheader: Muon |d0 Beamspot| IN cm
+
+*yheader: Eff.
+
+*data: x : y
+
+ 0 TO 0.2; 0.959 +0.001,-0.001;
+
+ 0.2 TO 0.4; 0.957 +0.002,-0.002;
+
+ 0.4 TO 0.6; 0.951 +0.003,-0.003;
+
+ 0.6 TO 1.0; 0.953 +0.003,-0.003;
+
+ 1.0 TO 1.5; 0.949 +0.004,-0.003;
+
+ 1.5 TO 2.0; 0.938 +0.005,-0.004;
+
+ 2.0 TO 2.5; 0.913 +0.007,-0.006;
+
+ 2.5 TO 3.0; 0.921 +0.007,-0.007;
+
+ 3.0 TO 4.0; 0.902 +0.007,-0.006;
+
+ 4.0 TO 5.0; 0.869 +0.01,-0.01;
+
+ 5.0 TO 6.0; 0.867 +0.013,-0.012;
+
+ 6.0 TO 6.5; 0.819 +0.026,-0.023;
+
+ 6.5 TO 7.0; 0.784 +0.028,-0.025;
+
+ 7.0 TO 7.5; 0.796 +0.031,-0.028;
+
+ 7.5 TO 8.0; 0.683 +0.038,-0.036;
+
+ 8.0 TO 10.0; 0.614 +0.025,-0.024;
+
+
+
+*dataend:
+
+
+
+# Use "*E" to denote the end of the input file (optional, can be omitted,
+
+# provided that "*dataend:" is used above).
+
+*E
