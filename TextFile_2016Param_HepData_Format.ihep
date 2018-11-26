@@ -8,13 +8,13 @@
 
 # The line must also end with a colon followed by the year.
 
-#*reference:??????
+#*reference:.
 
 
 
 # Give DOI of journal publication if available.
 
-#*doi:???????
+#*doi:.
 
 
 
@@ -34,7 +34,7 @@
 
 # The first word "Encoded" or "Modified" will be stored.
 
-*status: Modified XX XXX 2016 by Kamal Saoucha
+*status: Modified 05 OCT 2016 by Kamal Saoucha
 
 
 
@@ -154,7 +154,7 @@ of Kamal Saoucha.
 
 # Omit the decay products or give them on a separate line.
 
-#*reackey: P P --> sTop sTop ??????????????????
+#*reackey: P P --> sTop sTop .
 
 
 
